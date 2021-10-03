@@ -1,0 +1,115 @@
+/************************************** общие стили */
+body {
+  font-family: Montserrat;
+  margin: 0;
+  font-size: 18px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0px 30px 0px;
+}
+
+/****************************************** header */
+.header {
+  height: 80px;
+  box-shadow: 0px 0px 25px rgb(119, 126, 122);
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.contacts {
+  font-weight: 600;
+  color: #212121;
+}
+/******************************************* section */
+.content-flowers {
+  margin-bottom: 80px;
+}
+
+h1 {
+  font-size: 40px;
+  height: 49px;
+  text-align: center;
+  margin: 63px 0px;
+  color: #424242;
+}
+
+.item-flowers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flower-img {
+  display: block;
+  margin: auto;
+}
+
+.flower-text {
+  width: 196px;
+  padding-top: 23px;
+  text-align: center;
+}
+
+.subtitle-text {
+  font-weight: 600;
+  font-size: 18px;
+  color: #212121;
+}
+
+.flower-text p {
+  font-size: 16px;
+  padding-top: 10px;
+  color: #424242;
+  margin: 0px;
+}
+
+hr {
+  width: 1137px;
+  color: #ffb5b5;
+}
+
+.title-text {
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 150%;
+  padding: 101px 0px;
+  margin: 0px;
+  color: #ff445a;
+}
+
+.title-poem {
+  margin: 79px 0px 80px;
+}
+
+.subtitle {
+  width: 555px;
+}
+
+.text-poem {
+  line-height: 150%;
+  padding-top: 9px;
+  color: #424242;
+}
+
+/********************************** footer */
+.footer {
+  height: 80px;
+  background-color: #ffb5b5;
+}
+
+.footer-text {
+  padding-top: 26px;
+  color: #fff;
+  margin: 0px;
+  text-align: center;
+}
